@@ -6,12 +6,12 @@
   "homepage": "https://github.com/kal-J/dpo-node-sdk",
   "exports": {
     ".": {
-      "import": "./dist/index.es.js",
-      "require": "./dist/index.cjs.js"
+      "import": "./dist/index.js",
+      "require": "./dist/index.cjs"
     }
   },
-  "main": "./dist/index.cjs.js",
-  "module": "./dist/index.es.js",
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.js",
   "typings": "./dist/index.d.ts",
   "files": [
     "dist"
