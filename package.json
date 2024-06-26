@@ -1,6 +1,6 @@
 {
   "name": "dpo-node-sdk",
-  "private": true,
+  "private": false,
   "version": "0.0.2",
   "type": "module",
   "homepage": "https://github.com/kal-J/dpo-node-sdk",
