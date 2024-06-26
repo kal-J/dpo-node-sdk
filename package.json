@@ -3,9 +3,7 @@
   "private": true,
   "version": "0.0.1",
   "type": "module",
-  "repository": {
-    "url": "https://github.com/kal-J/dpo-node-sdk"
-  },
+  "homepage": "https://github.com/kal-J/dpo-node-sdk",
   "exports": {
     ".": {
       "import": "./dist/index.es.js",
