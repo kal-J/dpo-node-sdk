@@ -3,22 +3,25 @@ import convert from "xml-js";
 import { type TransactionResponse } from "../basicOperations/emailToToken";
 
 export default async function getBankTransferOptions(
-    companyToken: string,
-    transactionToken: string,
-    creditCardNumber: number,
-    creditCardExpiry: string,
-    creditCardCVV: number,
-    cardHolderName: string,
-    chargeType?: string,
-    enrolled?: string,
-    eci?: string,
-    threeDSTransId?: string,
-    cavv?: string,
-    threedMessageVersion?: string,
-    transactionStatus?: string,
-    threedACSIssuerCode?: number
+    options: {
+        companyToken: string,
+        transactionToken: string,
+        creditCardNumber: number,
+        creditCardExpiry: string,
+        creditCardCVV: number,
+        cardHolderName: string,
+        chargeType?: string,
+        enrolled?: string,
+        eci?: string,
+        threeDSTransId?: string,
+        cavv?: string,
+        threedMessageVersion?: string,
+        transactionStatus?: string,
+        threedACSIssuerCode?: number
+    }
 
 ) {
+    const { companyToken, transactionToken, creditCardNumber, creditCardExpiry, creditCardCVV, cardHolderName, chargeType, enrolled, eci, threeDSTransId, cavv, threedMessageVersion, transactionStatus, threedACSIssuerCode } = options;
     const data = `
         <?xml version="1.0" encoding="utf-8"?>
         <API3G>
