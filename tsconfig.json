@@ -10,13 +10,19 @@
     "isolatedModules": true,
     "esModuleInterop": true,
     "noEmit": true,
-    "noUnusedLocals": true,
-    "noUnusedParameters": true,
+    "noUnusedLocals": false,
+    "noUnusedParameters": false,
     "noImplicitReturns": true,
-    "skipLibCheck": true
+    "skipLibCheck": true,
+    "baseUrl": "./",
+    "paths": {
+      "~/*": ["src/*"]
+    },
+    
   },
   "ts-node": {
     "esm": true
   },
-  "include": ["src"]
+  "include": ["./src"],
+  "exclude": ["node_modules"]
 }

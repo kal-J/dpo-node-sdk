@@ -106,9 +106,9 @@ export default async function verifyToken(
 }
 
 //just testing shit
-const response = await verifyToken(
+/* const response = await verifyToken(
     "0B6758B3-BB98-438A-A666-7BF2F9CA6B31",
     "C5F4B74A-9727-4BDC-BB5C-B8253C39A81B",
 )
 
-console.log(response)
+console.log(response) */

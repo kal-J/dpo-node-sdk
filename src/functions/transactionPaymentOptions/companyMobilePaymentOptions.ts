@@ -64,6 +64,6 @@ export default async function companyMobilePaymentOptions(companyToken: string) 
     }
 }
 
-
+/* 
 const res = await companyMobilePaymentOptions("0B6758B3-BB98-438A-A666-7BF2F9CA6B61")
-console.log(res)
+console.log(res) */

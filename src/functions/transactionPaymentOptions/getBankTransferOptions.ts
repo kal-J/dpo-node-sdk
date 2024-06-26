@@ -76,5 +76,5 @@ export default getBankTransferOptions;
 
 
 // testing the function
-const res = await getBankTransferOptions("0B6758B3-BB98-438A-A666-7BF2F9CA6B31", "84601007-3411-419F-8818-DF90C93B0898");
-console.log(res);
+/* const res = await getBankTransferOptions("0B6758B3-BB98-438A-A666-7BF2F9CA6B31", "84601007-3411-419F-8818-DF90C93B0898");
+console.log(res); */

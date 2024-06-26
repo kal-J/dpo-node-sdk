@@ -75,7 +75,7 @@ export default async function getMobilePaymentOptions(companyToken: string, tran
 }
 
 // here I am just testing the function
-const response = await getMobilePaymentOptions("0B6758B3-BB98-438A-A666-7BF2F9CA6B31",
+/* const response = await getMobilePaymentOptions("0B6758B3-BB98-438A-A666-7BF2F9CA6B31",
     "C5F4B74A-9727-4BDC-BB5C-B8253C39A81B")
-console.log(response);
+console.log(response); */
 

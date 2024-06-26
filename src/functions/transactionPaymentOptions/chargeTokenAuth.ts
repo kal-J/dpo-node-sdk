@@ -38,5 +38,5 @@ export default async function chargeTokenAuth(
 }
 
 // here I am just testing the function
-const response = await chargeTokenAuth("0B6758B3-BB98-438A-A666-7BF2F9CA6B31", "8E01916D-4A60-4BBB-8A20-293BBE2DC0CB")
-console.log(response);
+/* const response = await chargeTokenAuth("0B6758B3-BB98-438A-A666-7BF2F9CA6B31", "8E01916D-4A60-4BBB-8A20-293BBE2DC0CB")
+console.log(response); */

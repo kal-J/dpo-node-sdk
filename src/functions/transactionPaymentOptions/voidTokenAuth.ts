@@ -59,5 +59,5 @@ export default async function voidTokenAuth(
 }
 
 // here I am just testing the function
-const response = await voidTokenAuth("0B6758B3-BB98-438A-A666-7BF2F9CA6B31", "8E01916D-4A60-4BBB-8A20-293BBE2DC0CB", "voiding the transaction");
-console.log(response);
+/* const response = await voidTokenAuth("0B6758B3-BB98-438A-A666-7BF2F9CA6B31", "8E01916D-4A60-4BBB-8A20-293BBE2DC0CB", "voiding the transaction");
+console.log(response); */

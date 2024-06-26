@@ -61,5 +61,5 @@ export default async function chargeTokenBankTransfer(
 }
 
 // here I am just testing the function
-const response = await chargeTokenBankTransfer("0B6758B3-BB98-438A-A666-7BF2F9CA6B31", "50671986-5CAE-4C18-955E-C60BB2CAC20F", "BANCO DO BRASIL S.A.");
-console.log(response);
+/* const response = await chargeTokenBankTransfer("0B6758B3-BB98-438A-A666-7BF2F9CA6B31", "50671986-5CAE-4C18-955E-C60BB2CAC20F", "BANCO DO BRASIL S.A.");
+console.log(response); */

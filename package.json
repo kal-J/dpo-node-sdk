@@ -1,15 +1,36 @@
 {
-  "name": "dpowrapper",
+  "name": "dpo-node-sdk",
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "repository": {
+    "url": "https://github.com/kal-J/dpo-node-sdk"
+  },
+  "exports": {
+    ".": {
+      "import": "./dist/index.es.js",
+      "require": "./dist/index.cjs.js"
+    }
+  },
+  "main": "./dist/index.cjs.js",
+  "module": "./dist/index.es.js",
+  "typings": "./dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "publish-to-npm": "npm run build && npx np"
   },
   "devDependencies": {
-    "typescript": "^4.9.3",
+    "@rollup/plugin-typescript": "^11.1.6",
+    "@types/node": "^20.14.9",
+    "prettier": "2.6.2",
+    "rollup-plugin-typescript-paths": "^1.5.0",
+    "tslib": "^2.4.0",
+    "typescript": "^5.5.2",
     "vite": "^4.2.0"
   },
   "dependencies": {
