@@ -22,7 +22,8 @@
     "dev": "vite",
     "build": "tsc && vite build",
     "preview": "vite preview",
-    "publish-to-npm": "npm run build && npx np"
+    "publish-to-npm": "npm run build && npx np",
+    "test": "echo 'No test specified'"
   },
   "devDependencies": {
     "@rollup/plugin-typescript": "^11.1.6",
